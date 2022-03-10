@@ -3,7 +3,7 @@
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
         <?php if (!$this->session->userdata('tahun')) : ?>
-            <h1 class="h3 mb-0 text-gray-800">Menu Utama / 2018</h1>
+            <h1 class="h3 mb-0 text-gray-800">Dashboard / 2018</h1>
         <?php else : ?>
             <h1 class="h3 mb-0 text-gray-800">Dashboard / <?= $this->session->userdata('tahun') ?></h1>
         <?php endif; ?>
